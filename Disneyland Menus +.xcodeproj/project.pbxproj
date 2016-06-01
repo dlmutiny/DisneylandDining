@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55B210FA15A91D360068B46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B210F915A91D360068B46C /* Foundation.framework */; };
+		55B210FC15A91D360068B46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B210FB15A91D360068B46C /* UIKit.framework */; };
+		55B210FE15A91D360068B46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B210FD15A91D360068B46C /* CoreGraphics.framework */; };
+		55B2110015A91D360068B46C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B210FF15A91D360068B46C /* AddressBook.framework */; };
+		55B2110215A91D360068B46C /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110115A91D360068B46C /* AddressBookUI.framework */; };
+		55B2110415A91D360068B46C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110315A91D360068B46C /* AudioToolbox.framework */; };
+		55B2110615A91D360068B46C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110515A91D360068B46C /* AVFoundation.framework */; };
+		55B2110815A91D360068B46C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110715A91D360068B46C /* CoreLocation.framework */; };
+		55B2110A15A91D360068B46C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110915A91D360068B46C /* MediaPlayer.framework */; };
+		55B2110C15A91D360068B46C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110B15A91D360068B46C /* QuartzCore.framework */; };
+		55B2110E15A91D360068B46C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110D15A91D360068B46C /* SystemConfiguration.framework */; };
+		55B2111015A91D360068B46C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2110F15A91D360068B46C /* MobileCoreServices.framework */; };
+		55B2111215A91D360068B46C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2111115A91D360068B46C /* CoreMedia.framework */; };
+		55B2111815A91D360068B46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B2111615A91D360068B46C /* InfoPlist.strings */; };
+		55B2111A15A91D360068B46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B2111915A91D360068B46C /* main.m */; };
+		55B2111D15A91D360068B46C /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B2111C15A91D360068B46C /* PhoneGap.framework */; };
+		55B2112215A91D360068B46C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B2112015A91D360068B46C /* Localizable.strings */; };
+		55B2112615A91D360068B46C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55B2112415A91D360068B46C /* Localizable.strings */; };
+		55B2113415A91D360068B46C /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 55B2113315A91D360068B46C /* Capture.bundle */; };
+		55B2113615A91D360068B46C /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55B2113515A91D360068B46C /* PhoneGap.plist */; };
+		55B2113A15A91D360068B46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B2113915A91D360068B46C /* AppDelegate.m */; };
+		55B2113D15A91D360068B46C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B2113C15A91D360068B46C /* MainViewController.m */; };
+		55B2113F15A91D360068B46C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B2113E15A91D360068B46C /* MainViewController.xib */; };
+		55B2114C15A91E3F0068B46C /* www in Resources */ = {isa = PBXBuildFile; fileRef = 55B2114B15A91E3F0068B46C /* www */; };
+		55B2115415A920210068B46C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B2112815A91D360068B46C /* icon.png */; };
+		55B2115615A920290068B46C /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B2115515A920290068B46C /* icon@2x.png */; };
+		55B2115915A920360068B46C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B2115815A920360068B46C /* Default@2x.png */; };
+		55B2115A15A9208D0068B46C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B2112F15A91D360068B46C /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55B210F515A91D360068B46C /* Disneyland Menus +.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disneyland Menus +.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B210F915A91D360068B46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55B210FB15A91D360068B46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55B210FD15A91D360068B46C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55B210FF15A91D360068B46C /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		55B2110115A91D360068B46C /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		55B2110315A91D360068B46C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		55B2110515A91D360068B46C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		55B2110715A91D360068B46C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		55B2110915A91D360068B46C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		55B2110B15A91D360068B46C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55B2110D15A91D360068B46C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		55B2110F15A91D360068B46C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		55B2111115A91D360068B46C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		55B2111515A91D360068B46C /* Disneyland Menus +-Info.plist */ = {isa = PBXFileReference; path = "Disneyland Menus +-Info.plist"; sourceTree = "<group>"; };
+		55B2111715A91D360068B46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55B2111915A91D360068B46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B2111B15A91D360068B46C /* Disneyland Menus +-Prefix.pch */ = {isa = PBXFileReference; path = "Disneyland Menus +-Prefix.pch"; sourceTree = "<group>"; };
+		55B2111C15A91D360068B46C /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		55B2112115A91D360068B46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		55B2112515A91D360068B46C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		55B2112815A91D360068B46C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = "Disneyland Dining+/Resources/icons/icon.png"; sourceTree = "<group>"; };
+		55B2112C15A91D360068B46C /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		55B2112F15A91D360068B46C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Disneyland Dining+/Resources/splash/Default.png"; sourceTree = "<group>"; };
+		55B2113315A91D360068B46C /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		55B2113515A91D360068B46C /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		55B2113815A91D360068B46C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		55B2113915A91D360068B46C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		55B2113B15A91D360068B46C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		55B2113C15A91D360068B46C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		55B2113E15A91D360068B46C /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
+		55B2114115A91D360068B46C /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		55B2114B15A91E3F0068B46C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "Disneyland Dining+/www"; sourceTree = "<group>"; };
+		55B2115515A920290068B46C /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		55B2115815A920360068B46C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B210EF15A91D360068B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B210FA15A91D360068B46C /* Foundation.framework in Frameworks */,
+				55B210FC15A91D360068B46C /* UIKit.framework in Frameworks */,
+				55B210FE15A91D360068B46C /* CoreGraphics.framework in Frameworks */,
+				55B2110015A91D360068B46C /* AddressBook.framework in Frameworks */,
+				55B2110215A91D360068B46C /* AddressBookUI.framework in Frameworks */,
+				55B2110415A91D360068B46C /* AudioToolbox.framework in Frameworks */,
+				55B2110615A91D360068B46C /* AVFoundation.framework in Frameworks */,
+				55B2110815A91D360068B46C /* CoreLocation.framework in Frameworks */,
+				55B2110A15A91D360068B46C /* MediaPlayer.framework in Frameworks */,
+				55B2110C15A91D360068B46C /* QuartzCore.framework in Frameworks */,
+				55B2110E15A91D360068B46C /* SystemConfiguration.framework in Frameworks */,
+				55B2111015A91D360068B46C /* MobileCoreServices.framework in Frameworks */,
+				55B2111215A91D360068B46C /* CoreMedia.framework in Frameworks */,
+				55B2111D15A91D360068B46C /* PhoneGap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B210F215A91D360068B46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B210E715A91D360068B46C = {
+			isa = PBXGroup;
+			children = (
+				55B2115815A920360068B46C /* Default@2x.png */,
+				55B2115515A920290068B46C /* icon@2x.png */,
+				55B2112F15A91D360068B46C /* Default.png */,
+				55B2112815A91D360068B46C /* icon.png */,
+				55B2114B15A91E3F0068B46C /* www */,
+				55B2111315A91D360068B46C /* Disneyland Dining+ */,
+				55B210F815A91D360068B46C /* Frameworks */,
+				55B210F615A91D360068B46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B210F615A91D360068B46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B210F515A91D360068B46C /* Disneyland Menus +.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B210F815A91D360068B46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B210F915A91D360068B46C /* Foundation.framework */,
+				55B210FB15A91D360068B46C /* UIKit.framework */,
+				55B210FD15A91D360068B46C /* CoreGraphics.framework */,
+				55B210FF15A91D360068B46C /* AddressBook.framework */,
+				55B2110115A91D360068B46C /* AddressBookUI.framework */,
+				55B2110315A91D360068B46C /* AudioToolbox.framework */,
+				55B2110515A91D360068B46C /* AVFoundation.framework */,
+				55B2110715A91D360068B46C /* CoreLocation.framework */,
+				55B2110915A91D360068B46C /* MediaPlayer.framework */,
+				55B2110B15A91D360068B46C /* QuartzCore.framework */,
+				55B2110D15A91D360068B46C /* SystemConfiguration.framework */,
+				55B2110F15A91D360068B46C /* MobileCoreServices.framework */,
+				55B2111115A91D360068B46C /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55B2111315A91D360068B46C /* Disneyland Dining+ */ = {
+			isa = PBXGroup;
+			children = (
+				55B2111C15A91D360068B46C /* PhoneGap.framework */,
+				55B2111E15A91D360068B46C /* Resources */,
+				55B2113715A91D360068B46C /* Classes */,
+				55B2114015A91D360068B46C /* Plugins */,
+				55B2111415A91D360068B46C /* Supporting Files */,
+			);
+			path = "Disneyland Dining+";
+			sourceTree = "<group>";
+		};
+		55B2111415A91D360068B46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B2111515A91D360068B46C /* Disneyland Menus +-Info.plist */,
+				55B2111615A91D360068B46C /* InfoPlist.strings */,
+				55B2111915A91D360068B46C /* main.m */,
+				55B2111B15A91D360068B46C /* Disneyland Menus +-Prefix.pch */,
+				55B2113515A91D360068B46C /* PhoneGap.plist */,
+				55B2113E15A91D360068B46C /* MainViewController.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55B2111E15A91D360068B46C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55B2113315A91D360068B46C /* Capture.bundle */,
+				55B2111F15A91D360068B46C /* en.lproj */,
+				55B2112315A91D360068B46C /* es.lproj */,
+				55B2112715A91D360068B46C /* icons */,
+				55B2112E15A91D360068B46C /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		55B2111F15A91D360068B46C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				55B2112015A91D360068B46C /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		55B2112315A91D360068B46C /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				55B2112415A91D360068B46C /* Localizable.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		55B2112715A91D360068B46C /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				55B2112C15A91D360068B46C /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		55B2112E15A91D360068B46C /* splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		55B2113715A91D360068B46C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55B2113815A91D360068B46C /* AppDelegate.h */,
+				55B2113915A91D360068B46C /* AppDelegate.m */,
+				55B2113B15A91D360068B46C /* MainViewController.h */,
+				55B2113C15A91D360068B46C /* MainViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		55B2114015A91D360068B46C /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				55B2114115A91D360068B46C /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B210F415A91D360068B46C /* Disneyland Menus + */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B2114415A91D360068B46C /* Build configuration list for PBXNativeTarget "Disneyland Menus +" */;
+			buildPhases = (
+				55B210EE15A91D360068B46C /* Sources */,
+				55B210EF15A91D360068B46C /* Frameworks */,
+				55B210F015A91D360068B46C /* Resources */,
+				55B210F115A91D360068B46C /* Sources */,
+				55B210F215A91D360068B46C /* Frameworks */,
+				55B210F315A91D360068B46C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disneyland Menus +";
+			productName = "Disneyland Dining+";
+			productReference = 55B210F515A91D360068B46C /* Disneyland Menus +.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B210E915A91D360068B46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 55B210EC15A91D360068B46C /* Build configuration list for PBXProject "Disneyland Menus +" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 55B210E715A91D360068B46C;
+			productRefGroup = 55B210F615A91D360068B46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B210F415A91D360068B46C /* Disneyland Menus + */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B210F015A91D360068B46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2111815A91D360068B46C /* InfoPlist.strings in Resources */,
+				55B2112215A91D360068B46C /* Localizable.strings in Resources */,
+				55B2112615A91D360068B46C /* Localizable.strings in Resources */,
+				55B2113415A91D360068B46C /* Capture.bundle in Resources */,
+				55B2113615A91D360068B46C /* PhoneGap.plist in Resources */,
+				55B2113F15A91D360068B46C /* MainViewController.xib in Resources */,
+				55B2114C15A91E3F0068B46C /* www in Resources */,
+				55B2115415A920210068B46C /* icon.png in Resources */,
+				55B2115615A920290068B46C /* icon@2x.png in Resources */,
+				55B2115915A920360068B46C /* Default@2x.png in Resources */,
+				55B2115A15A9208D0068B46C /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55B210F315A91D360068B46C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, into the Project Navigator of Xcode 4. Make sure you select the second radio-button: 'Create folder references for any added folders' (which will create a blue folder)\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B210EE15A91D360068B46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2111A15A91D360068B46C /* main.m in Sources */,
+				55B2113A15A91D360068B46C /* AppDelegate.m in Sources */,
+				55B2113D15A91D360068B46C /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B210F115A91D360068B46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55B2111615A91D360068B46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B2111715A91D360068B46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55B2112015A91D360068B46C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B2112115A91D360068B46C /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		55B2112415A91D360068B46C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B2112515A91D360068B46C /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B2114215A91D360068B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55B2114315A91D360068B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55B2114515A91D360068B46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disneyland Dining+/Disneyland Menus +-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "Disneyland Dining+/Disneyland Menus +-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "Disneyland Menus +";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55B2114615A91D360068B46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Disneyland Dining+/Disneyland Menus +-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "Disneyland Dining+/Disneyland Menus +-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "Disneyland Menus +";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B210EC15A91D360068B46C /* Build configuration list for PBXProject "Disneyland Menus +" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B2114215A91D360068B46C /* Debug */,
+				55B2114315A91D360068B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B2114415A91D360068B46C /* Build configuration list for PBXNativeTarget "Disneyland Menus +" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B2114515A91D360068B46C /* Debug */,
+				55B2114615A91D360068B46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B210E915A91D360068B46C /* Project object */;
+}

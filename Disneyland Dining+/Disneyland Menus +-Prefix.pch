@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Disneyland Dining+' target in the 'Disneyland Dining+' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
